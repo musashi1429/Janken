@@ -12,7 +12,7 @@ pfc = ("Pierre", "Feuille", "Ciseaux")
 while input("Jouez (y/n): ").lower() != "n":
 
     print("\n------------------------------------")
-    print("Choisissez un chiffre entre 0 et 2 sachant que Pierre>Ciseaux>Feuille>Pierre")
+    print("Choisissez un chiffre entre 0 et 2 sachant que Pierre>Ciseaux>Feuille>Pierre ")
     print("------------------------------------\n")
 
     a = int(input("Choisissez un chiffre:\n0: Pierre\n1: Feuille\n2: Ciseaux\n-> "))
@@ -38,4 +38,11 @@ while input("Jouez (y/n): ").lower() != "n":
         fichier.write(json.dumps(info))
         fichier.close()
 else:
-    print(" Au revoir")
+    def read():
+        pseudoscore = []
+        with open("pseudoscore.json") as f:
+            data = json.load(f)
+            for entrie in data:
+                read.append(entrie["":""])
+            return read
+print(read)
