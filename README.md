@@ -1,4 +1,4 @@
 # Janken
-exercice de création d'un shifumi
+exercice of création game rock paper scisors
 
-Petit présentation d'un projet de 4 e me semaine de formation créer un un jeu.
+présentation an projet for my 4e me week of  my formation create a game.
